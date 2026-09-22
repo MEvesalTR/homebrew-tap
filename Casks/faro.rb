@@ -20,8 +20,10 @@ cask "faro" do
 
   app "Faro.app"
 
-  postflight_steps do
-    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/Faro.app"]
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Faro.app"],
+                   sudo: false
   end
 
   zap trash: [
