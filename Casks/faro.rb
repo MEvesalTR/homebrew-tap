@@ -1,13 +1,13 @@
 cask "faro" do
-  version "0.0.5"
+  version "0.0.7"
 
   on_arm do
-    sha256 "9729a6d0019af9b2e87874b25a6aee0e5b97d51c6b31db509cb77ed7f5ce9943"
+    sha256 "bb844604c97c4473e9f0305fca055064784b2083e61a570079b15b9a75831dd7"
 
     url "https://s3.ir-tbz-sh1.arvanstorage.ir/hamafzar/releases/avapardaz/faro-flutter/macos/#{version}/arm64/Faro-v#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "c39a7a5ed1cb2c29f55b2b3f319a5f7b45d627223bab6fb3f198ee0043cab26a"
+    sha256 "cc84ff0a130643e6ad4cf21af7bdbade3db24dfda660191b08c4db9240d4f48b"
 
     url "https://s3.ir-tbz-sh1.arvanstorage.ir/hamafzar/releases/avapardaz/faro-flutter/macos/#{version}/x64/Faro-v#{version}-x64.dmg"
   end
