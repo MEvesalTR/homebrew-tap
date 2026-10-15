@@ -1,13 +1,13 @@
 cask "faro" do
-  version "0.1.0"
+  version "0.1.1"
 
   on_arm do
-    sha256 "aa78df8d29d35f5797e319e4b8aae21287e21c15620504ad38b261abd963071e"
-    url "https://s3.ir-tbz-sh1.arvanstorage.ir/hamafzar/s3_storage/public/2cdd4a23582142ca9198593b59e40a32_Faro-v0.1.0-arm64.dmg"
+    sha256 "4971675cac02b7bec0bed5ef571b08df4b233ff3725a19ef9765ca9e154d6b7e"
+    url "https://s3.ir-tbz-sh1.arvanstorage.ir/hamafzar/s3_storage/public/d3ff96eda02a4eef904e26b22ac1b3ba_Faro-v0.1.1-arm64.dmg"
   end
   on_intel do
-    sha256 "79c554fd5f2a4cdaa203dd171f29cb320ebe9260c7c68192420863dce0d4ad17"
-    url "https://s3.ir-tbz-sh1.arvanstorage.ir/hamafzar/s3_storage/public/4474b8e00ba04c70931fc3b3f27d8527_Faro-v0.1.0-x64.dmg"
+    sha256 "acc36626dfb65900bd6707759c8b11e59a1adf93ea5bff24c28fecbb34f29689"
+    url "https://s3.ir-tbz-sh1.arvanstorage.ir/hamafzar/s3_storage/public/add80af599f2456c859d9ed995d22363_Faro-v0.1.1-x64.dmg"
   end
 
   name "Faro"
@@ -18,9 +18,9 @@ cask "faro" do
 
   app "Faro.app"
 
-  postflight_steps do
+  postflight do
     system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/Faro.app"],
+                   args: ["-cr", "/Applications/Faro.app"],
                    sudo: false
   end
 
