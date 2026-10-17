@@ -2,12 +2,12 @@ cask "faro" do
   version "0.1.2"
 
   on_arm do
-    sha256 "13bd0fc290ae80520a1b22274abbfde74827409966619fd9676ef5d3d3666ac7"
-    url "https://s3.ir-tbz-sh1.arvanstorage.ir/hamafzar/s3_storage/public/2172265bb8784562b31b76c2730ff75d_Faro-v0.1.2-arm64.dmg"
+    sha256 "2f46a990c39d14a4847af50e61962d29fb6f264ba71a46aaba6b95fabd31b7e2"
+    url "https://s3.ir-tbz-sh1.arvanstorage.ir/hamafzar/s3_storage/public/a8f97a6cce8a4cb0a3876ac581170bd6_Faro-v0.1.2-arm64.dmg"
   end
   on_intel do
-    sha256 "a3bc39c53c9286c2b515223a217e4456333b064553e07fcaa119091096472f8a"
-    url "https://s3.ir-tbz-sh1.arvanstorage.ir/hamafzar/s3_storage/public/3b17a17ba77d465192f0e6be9f80d5dc_Faro-v0.1.2-x64.dmg"
+    sha256 "c85ebaa03571c2d4cd018867709d6ed052a32afa9d7869981908889db9f0d5b7"
+    url "https://s3.ir-tbz-sh1.arvanstorage.ir/hamafzar/s3_storage/public/16148ec4dd7d4b14bf76e95a27eaefcd_Faro-v0.1.2-x64.dmg"
   end
 
   name "Faro"
